@@ -1,3 +1,6 @@
+#ifndef _PARSER_H
+#define _PARSER_H
+
 class Parser {
     public:
         Parser();
@@ -12,3 +15,5 @@ class Parser {
         char source[128];
         int index;
 };
+
+#endif
